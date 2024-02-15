@@ -1,14 +1,33 @@
 body {
-  padding: 0;
+  padding: 3rem;
   margin: 0;
   background-color: rgb(24, 24, 24);
   color: #ececec;
 }
 
-li {
-  list-style-type: none;
+.itemsGrid{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0px;
+}
+
+img{
+  width: 50px;
+  height: 50px;
 }
 
 attention {
   color: pink;
+}
+
+.tooltip {
+  display: none;
+}
+
+.itemImage:hover .tooltip {
+  display: block;
+}
+
+.imageAndDescriptionFaceout{
+  width: fit-content;
 }

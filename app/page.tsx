@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <h1>OP.GG Clone</h1>
-      <Link href="/users">Item Glossary</Link>
+      <Link href="/itemGlossary">Item Glossary</Link>
     </main>
   );
 }
